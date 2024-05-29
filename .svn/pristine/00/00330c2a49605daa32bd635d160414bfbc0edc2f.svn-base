@@ -1,0 +1,43 @@
+// Version.h
+//
+//@ Copyright(C) 2013 ATP Electronics Inc.
+//@ All rights reserved
+//@
+//@ Change History	
+#if 0
+/*---------------------------------------------------------------------------------------------------------------
+Version	|	Remarks			|	Verbatim																								
+---------------------------------------------------------------------------------------------------------------*/
+0.5.0		|	CTJ15011514		|	Add caption of process
+0.4.24		|	CTJ15010613		|	Fix bug of scan physical capacity
+0.4.23		|	CTJ14122416		|	Tentative display and calculate PSN
+0.4.22		|	CTJ14122313		|	Add partition length to physical information
+0.4.21		|	CTJ14121915		|	Add member variables of physical information
+0.4.20		|	CTJ14071401		|	Fix bug of loading new ini file
+0.4.19		|	CTJ14070901		|	Press enter key to load ini file
+0.4.18		|	CTJ14062713		|	Add missing GetCapacity.dll and related files
+0.4.17		|	CTJ14062712		|	Revert to 0.4.16 due to compile fail
+0.4.16		|	CTJ14062711		|	Reduce argument of getDriveTotalSector function
+0.4.15		|	CTJ14062710		|	Fix bug of setting capacity of NTFS format
+0.4.14		|	CTJ14062510		|	Correct missing file name
+0.4.13		|	CTJ14062509		|	Change file name of Default.ini to DeleteDisk.ini
+0.4.12		|	CTJ14062418		|	Add warning message if Default.ini is missing
+0.4.11		|	CTJ14062417		|	Preload default ini file to delete disks
+0.4.10		|	CTJ14062415		|	Set end sector by device type
+0.4.9		|	CTJ14062410		|	Fix bug of setting last sector
+0.4.8		|	CTJ14062311		|	Modify fileException
+0.4.7		|	CTJ14062310		|	Check customize file when loading ini file
+0.4.6		|	CTJ14061710		|	Remove obsolete file
+0.4.5		|	CTJ14061709		|	Remove obsolete code
+0.4.4		|	CTJ14061615		|	Revert to 0.4.3
+0.4.3		|	CTJ14061213		|	Synchronize with CopyCompareRC
+0.4.2		|	CTJ14061211		|	Change icon
+0.4.1		|	CTJ14061011		|	Fix bug of reviving checkbox and editbox
+0.4		|	CTJ14061010		|	Release to Kaohsiung
+0.3.6		|	CTJ14060616		|	Disable checkbox and editbox by deleting disk from ini file
+0.3.5		|	CTJ14060615		|	Remove redundant files
+0.3.4		|	CTJ14060614		|	Parse CopyCore.DLL from source code
+0.3.3		|	CTJ14060417		|	Synchronize before phase in Dll
+0.3.2		|	CTJ14060415		|	Reform functions																		
+
+#endif

@@ -1,0 +1,32 @@
+﻿Build started 2015/2/6 上午 10:56:12.
+     1>Project "E:\Visual Studio 2010\Projects\CopyCompareSample\CopyCompare\CopyCompare.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\CopyCompare.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease\ /nologo /fo"Release\CopyCompare.res" CopyCompare.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Visual Studio 2010\Projects\CopyCompareSample\Release\CopyCompare.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\CopyCompare.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"E:\Visual Studio 2010\Projects\CopyCompareSample\Release\CopyCompare.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Visual Studio 2010\Projects\CopyCompareSample\Release\CopyCompare.lib" /MACHINE:X86 Release\CopyCompare.res
+         Release\CopyCompare.obj
+         Release\CopyCompareDlg.obj
+         Release\Page1.obj
+         Release\Page2.obj
+         Release\stdafx.obj
+         DLL_CopyCore.lib
+         GetCapacity.lib
+         JudgeOS.lib
+         Generating code
+         Finished generating code
+         CopyCompare.vcxproj -> E:\Visual Studio 2010\Projects\CopyCompareSample\Release\CopyCompare.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Visual Studio 2010\Projects\CopyCompareSample\Release\CopyCompare.exe;#1" /manifest CopyCompare.exe.manifest Release\CopyCompare.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\CopyCompare.unsuccessfulbuild".
+         Touching "Release\CopyCompare.lastbuildstate".
+     1>Done Building Project "E:\Visual Studio 2010\Projects\CopyCompareSample\CopyCompare\CopyCompare.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.95

@@ -1,0 +1,55 @@
+// Version.h
+//
+//@ Copyright(C) 2013 ATP Electronics Inc.
+//@ All rights reserved
+//@
+//@ Change History	
+#if 0
+/*---------------------------------------------------------------------------------------------------------------
+Version	|	Remarks			|	Verbatim																								
+---------------------------------------------------------------------------------------------------------------*/
+1.0.7		|	CTJ15020416		|	Modify returning Error code
+1.0.6		|	CTJ15012719		|	Fix bug of checking editbox
+1.0.5		|	CTJ15012718		|	Modify response function of onOK
+1.0.4		|	CTJ15012717		|	Implement function of timer stop
+1.0.3		|	CTJ15012716		|	Check timer format before process starts
+1.0.2		|	CTJ15012715		|	Fix bug of tab control
+1.0.1		|	CTJ15012714		|	Add tab control for options and timer
+1.0.0		|	CTJ15012615		|	Branch to Kaoshiung
+0.5.4		|	CTJ15012211		|	[Option] Display NG while forcing to stop
+0.5.3		|	CTJ15012110		|	Fix pause mode while update report
+0.5.2		|	CTJ15011517		|	Fix bug of reporting at read-each-write mode
+0.5.1		|	CTJ15011516		|	Modify display while forcing to stop
+0.5.0		|	CTJ15011514		|	Add caption of process
+0.4.24		|	CTJ15010613		|	Fix bug of scan physical capacity
+0.4.23		|	CTJ14122416		|	Tentative display and calculate PSN
+0.4.22		|	CTJ14122313		|	Add partition length to physical information
+0.4.21		|	CTJ14121915		|	Add member variables of physical information
+0.4.20		|	CTJ14071401		|	Fix bug of loading new ini file
+0.4.19		|	CTJ14070901		|	Press enter key to load ini file
+0.4.18		|	CTJ14062713		|	Add missing GetCapacity.dll and related files
+0.4.17		|	CTJ14062712		|	Revert to 0.4.16 due to compile fail
+0.4.16		|	CTJ14062711		|	Reduce argument of getDriveTotalSector function
+0.4.15		|	CTJ14062710		|	Fix bug of setting capacity of NTFS format
+0.4.14		|	CTJ14062510		|	Correct missing file name
+0.4.13		|	CTJ14062509		|	Change file name of Default.ini to DeleteDisk.ini
+0.4.12		|	CTJ14062418		|	Add warning message if Default.ini is missing
+0.4.11		|	CTJ14062417		|	Preload default ini file to delete disks
+0.4.10		|	CTJ14062415		|	Set end sector by device type
+0.4.9		|	CTJ14062410		|	Fix bug of setting last sector
+0.4.8		|	CTJ14062311		|	Modify fileException
+0.4.7		|	CTJ14062310		|	Check customize file when loading ini file
+0.4.6		|	CTJ14061710		|	Remove obsolete file
+0.4.5		|	CTJ14061709		|	Remove obsolete code
+0.4.4		|	CTJ14061615		|	Revert to 0.4.3
+0.4.3		|	CTJ14061213		|	Synchronize with CopyCompareRC
+0.4.2		|	CTJ14061211		|	Change icon
+0.4.1		|	CTJ14061011		|	Fix bug of reviving checkbox and editbox
+0.4		|	CTJ14061010		|	Release to Kaohsiung
+0.3.6		|	CTJ14060616		|	Disable checkbox and editbox by deleting disk from ini file
+0.3.5		|	CTJ14060615		|	Remove redundant files
+0.3.4		|	CTJ14060614		|	Parse CopyCore.DLL from source code
+0.3.3		|	CTJ14060417		|	Synchronize before phase in Dll
+0.3.2		|	CTJ14060415		|	Reform functions																		
+
+#endif

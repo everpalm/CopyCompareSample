@@ -1,0 +1,205 @@
+---- m_Tab Matches (2 in 2 files) ----
+CopyCompareDlg.cpp:	DDX_Control(pDX, IDC_TAB1, m_Tab);
+CopyCompareDlg.h:	CTabCtrl m_Tab;
+---- m_Tab Matches (2 in 2 files) ----
+CopyCompareDlg.cpp:	, m_Tab(0)
+CopyCompareDlg.h:CTabCtrl m_Tab;
+---- CTabPage Matches (1 in 1 files) ----
+CopyCompareDlg.h:CTabPage
+---- IDC_ERROR_STOP Matches (6 in 1 files) ----
+CopyCompareDlg.cpp:			if(((CButton*)GetDlgItem(IDC_ERROR_STOP))->GetCheck())
+CopyCompareDlg.cpp:			(CButton*)GetDlgItem(IDC_ERROR_STOP)-> EnableWindow( false );	
+CopyCompareDlg.cpp:			(CButton*)GetDlgItem(IDC_ERROR_STOP)-> EnableWindow( true );
+CopyCompareDlg.cpp:		if(((CButton*)GetDlgItem(IDC_ERROR_STOP))->GetCheck())
+CopyCompareDlg.cpp:	{_T("ErrorStop"),		_T("true"),					DLG_CBUTTON, 	IDC_ERROR_STOP,		1 },
+CopyCompareDlg.cpp:	{_T("ErrorStop"),		_T("false"),				DLG_CBUTTON,	IDC_ERROR_STOP,		0 },
+---- DEBUG_TEST_TEAM Matches (2 in 2 files) ----
+CopyCompareDlg.cpp:#elif (DEBUG_TEST_TEAM == TRUE)
+Switch.h:#define DEBUG_TEST_TEAM					FALSE
+---- IDC_ERROR_STOP Matches (6 in 1 files) ----
+CopyCompareDlg.cpp:			if(((CButton*)GetDlgItem(IDC_ERROR_STOP))->GetCheck())
+CopyCompareDlg.cpp:			//(CButton*)GetDlgItem(IDC_ERROR_STOP)-> EnableWindow( false );	
+CopyCompareDlg.cpp:			//(CButton*)GetDlgItem(IDC_ERROR_STOP)-> EnableWindow( true );
+CopyCompareDlg.cpp:		if(((CButton*)GetDlgItem(IDC_ERROR_STOP))->GetCheck())
+CopyCompareDlg.cpp:	{_T("ErrorStop"),		_T("true"),					DLG_CBUTTON, 	IDC_ERROR_STOP,		1 },
+CopyCompareDlg.cpp:	{_T("ErrorStop"),		_T("false"),				DLG_CBUTTON,	IDC_ERROR_STOP,		0 },
+---- OnBnClickedBeep Matches (3 in 2 files) ----
+Page1.cpp:	ON_BN_CLICKED(IDC_BEEP, &Page1::OnBnClickedBeep)
+Page1.cpp:void Page1::OnBnClickedBeep()
+Page1.h:	afx_msg void OnBnClickedBeep();
+---- Beep Matches (6 in 2 files) ----
+CopyCompareDlg.cpp:				g_DriveControl[i].Option.BIT.Beep = SET;
+CopyCompareDlg.cpp:				g_DriveControl[i].Option.BIT.Beep = CLR;
+CopyCompareDlg.cpp:					Beep(2000, 100);
+CopyCompareDlg.cpp:		MySetting.Write(szBeepWarning, szBeepWarning.GetLength()*2);		// Beep if read/write/compare error or copy compare complete
+DLL_CopyCore.h:			unsigned char Beep:1;			// 1: Beep, 0: None
+---- m_i64StartSector Matches (8 in 1 files) ----
+CopyCompareDlg.h:		m_i64StartSector = i64StartSector;
+CopyCompareDlg.h:		m_i64StartSector = m_i64EndSector = 0;
+CopyCompareDlg.h:	__int64 m_i64StartSector;
+CopyCompareDlg.h:		m_i64StartSector = int64Address;
+CopyCompareDlg.h:		return m_i64StartSector;
+CopyCompareDlg.h:		__int64 Difference = (m_i64EndSector - m_i64StartSector);
+CopyCompareDlg.h:		__int64 Difference = (m_i64EndSector - m_i64StartSector);
+CopyCompareDlg.h:		return Residue ? (m_i64StartSector + Product * Mod) : m_i64EndSector;
+---- setEndAddress Matches (7 in 2 files) ----
+CopyCompareDlg.cpp:			m_cFlashDrive[i].setEndAddress(i64PhysicalEnd);
+CopyCompareDlg.cpp:			m_cFlashDrive[i].setEndAddress(i64Endaddress);
+CopyCompareDlg.cpp:							m_cFlashDrive[i].setEndAddress(i64PhysicalEnd);
+CopyCompareDlg.cpp:							m_cFlashDrive[i].setEndAddress(i64Endaddress);
+CopyCompareDlg.cpp:		 //m_cFlashDrive[i].setEndAddress(int64EndSector);
+CopyCompareDlg.cpp:			m_cFlashDrive[i].setEndAddress(lEndSector);
+CopyCompareDlg.h:	void setEndAddress(__int64 int64Address)
+---- cstring2int Matches (0 in 0 files) ----
+---- cstringto Matches (7 in 1 files) ----
+CopyCompareDlg.cpp:char *CStringToChar(CString str)
+CopyCompareDlg.cpp:				char *chDeleteDisk = CStringToChar(szDeleteDisk);
+CopyCompareDlg.cpp:		char *chLabel = CStringToChar(szTempName);
+CopyCompareDlg.cpp:		char *chLabel = CStringToChar(szTempName);
+CopyCompareDlg.cpp:		char *pTempLabel = CStringToChar(driveLabelTbl[i]);
+CopyCompareDlg.cpp:		char *pTempString = CStringToChar(szTempString);
+CopyCompareDlg.cpp:				char *chDeleteDisk = CStringToChar(szDeleteDisk);
+---- cstring to integer Matches (2 in 1 files) ----
+CopyCompareDlg.cpp:					nPattern = _tcstol(szTempPattern, &end, 16);	// Convert hex cstring to integer in decimal by "_tcstol" function
+CopyCompareDlg.cpp:				nPattern = _tcstol(szTempPattern, &end, 16);	// Convert hex cstring to integer in decimal by "_tcstol" function
+---- _tcstol Matches (8 in 1 files) ----
+CopyCompareDlg.cpp:			StopTimer.nDay = _tcstol(szTimerDay, &end, 16);
+CopyCompareDlg.cpp:			StopTimer.nHour = _tcstol(szTimerHour, &end, 16);
+CopyCompareDlg.cpp:			StopTimer.nMinute = _tcstol(szTimerMinute, &end, 16);
+CopyCompareDlg.cpp:			StopTimer.nSecond = _tcstol(szTimerSecond, &end, 16);
+CopyCompareDlg.cpp:					nPattern = _tcstol(szTempPattern, &end, 16);	// Convert hex cstring to integer in decimal by "_tcstol" function
+CopyCompareDlg.cpp:				nPattern = _tcstol(szTempPattern, &end, 16);	// Convert hex cstring to integer in decimal by "_tcstol" function
+---- this Matches (52 in 7 files) ----
+CopyCompare.cpp:	// Set this to include all the common control classes you want to use
+CopyCompare.cpp:	// TODO: You should modify this string to be something appropriate
+CopyCompare.h:	#error "include 'stdafx.h' before including this file for PCH"
+CopyCompare.h:// See CopyCompare.cpp for the implementation of this class
+CopyCompareDlg.cpp:					this->setCheckBox(nDeleteDisk, FALSE);
+CopyCompareDlg.cpp:	// Set the icon for this dialog.  The framework does this automatically
+CopyCompareDlg.cpp:	this->OnBnClickedRadio1();
+CopyCompareDlg.cpp:	this->screenDisk();
+CopyCompareDlg.cpp://  this is automatically done for you by the framework.
+CopyCompareDlg.cpp:		CPaintDC dc(this); // device context for painting
+CopyCompareDlg.cpp:// The system calls this function to obtain the cursor to display while the user drags
+CopyCompareDlg.cpp:	this->screenDisk();
+CopyCompareDlg.cpp:	this->screenDisk();
+CopyCompareDlg.cpp:	if(this->getDriveInformation())
+CopyCompareDlg.cpp:			this->SetTimer(1,1000,0);	
+CopyCompareDlg.cpp:			int nCopySize = this->getCopySize();	
+CopyCompareDlg.cpp:	 this->updateReport();
+CopyCompareDlg.cpp:			this->KillTimer(1);
+CopyCompareDlg.cpp:	 this->updateReport();
+CopyCompareDlg.cpp:	CFileDialog fd(true, _T(""), _T("*.*"), OFN_HIDEREADONLY, szFilter, this);
+CopyCompareDlg.cpp:	CFileDialog fd(true, _T(""), _T("*.ini"), OFN_HIDEREADONLY, szFilter, this);	
+CopyCompareDlg.cpp:	CFileDialog fd(true, _T(""), _T("*.ini"), OFN_HIDEREADONLY, szFilter, this);	
+CopyCompareDlg.cpp:	this->initialCheck();
+CopyCompareDlg.cpp:	this->initialList();
+CopyCompareDlg.cpp:							this->OnBnClickedRadio1();
+CopyCompareDlg.cpp:							this->OnBnClickedRadio2();
+CopyCompareDlg.cpp:					this->setCheckBox(nDeleteDisk, FALSE);
+CopyCompareDlg.cpp:	this->OnBnClickedLoadIni();
+DLL_CopyCore.h:	#error "include 'stdafx.h' before including this file for PCH"
+DLL_CopyCore.h:// See DLL_CopyCore.cpp for the implementation of this class
+GetCapacity.h:	#error "include 'stdafx.h' before including this file for PCH"
+GetCapacity.h:// See GetCapacity.cpp for the implementation of this class
+JudgeOS.h:	#error "include 'stdafx.h' before including this file for PCH"
+JudgeOS.h:// See JudgeOS.cpp for the implementation of this class
+ReadMe.txt:The application wizard has created this CopyCompare application for
+ReadMe.txt:you.  This application not only demonstrates the basics of using the Microsoft
+ReadMe.txt:This file contains a summary of what you will find in each of the files that
+ReadMe.txt:    This is the main project file for VC++ projects generated using an application wizard.
+ReadMe.txt:    This is the filters file for VC++ projects generated using an Application Wizard. 
+ReadMe.txt:    and the filters. This association is used in the IDE to show grouping of files with
+ReadMe.txt:    This is the main header file for the application.  It includes other
+ReadMe.txt:    This is the main application source file that contains the application
+ReadMe.txt:    This is a listing of all of the Microsoft Windows resources that the
+ReadMe.txt:    in the RES subdirectory.  This file can be directly edited in Microsoft
+ReadMe.txt:    This is an icon file, which is used as the application's icon.  This
+ReadMe.txt:    This file contains resources that are not edited by Microsoft
+ReadMe.txt:    the resource editor in this file.
+ReadMe.txt:    These files contain your CCopyCompareDlg class.  This class defines
+ReadMe.txt:    This is the standard header file, which defines new resource IDs.
+ReadMe.txt:    Microsoft Visual C++ reads and updates this file.
+ReadMe.txt:	dependency on specific versions of Side-by-Side assemblies. The loader uses this
+---- DEBUG_ERROR_CODE Matches (8 in 2 files) ----
+CopyCompareDlg.cpp:#ifdef DEBUG_ERROR_CODE				
+CopyCompareDlg.cpp:#ifdef DEBUG_ERROR_CODE				
+CopyCompareDlg.cpp:#ifdef DEBUG_ERROR_CODE					
+CopyCompareDlg.cpp:#ifdef DEBUG_ERROR_CODE						
+CopyCompareDlg.cpp:#ifdef DEBUG_ERROR_CODE						
+CopyCompareDlg.cpp:#ifdef DEBUG_ERROR_CODE
+CopyCompareDlg.cpp:#ifdef DEBUG_ERROR_CODE
+CopyCompareDlg.h:#ifdef DEBUG_ERROR_CODE
+---- g_ErrorCode Matches (9 in 2 files) ----
+CopyCompareDlg.cpp:				g_ErrorCode[i].PARSE.SYNOPSIS.Symptom = ERROR_START_ADDRESS;
+CopyCompareDlg.cpp:				g_ErrorCode[i].PARSE.Symptom = ERROR_END_ADDRESS;
+CopyCompareDlg.cpp:					g_ErrorCode[i].PARSE.Symptom = ERROR_BUFFER_FULL;
+CopyCompareDlg.cpp:						g_ErrorCode[i].PARSE.Symptom = ERROR_PATTERN;
+CopyCompareDlg.cpp:						g_ErrorCode[i].PARSE.Symptom = ERROR_OPEN_FILE;
+CopyCompareDlg.cpp:										g_ErrorCode[i].PARSE.SYNOPSIS.Mode, 
+CopyCompareDlg.cpp:										g_ErrorCode[i].PARSE.SYNOPSIS.Phase, 
+CopyCompareDlg.cpp:										g_ErrorCode[i].PARSE.SYNOPSIS.Symptom);
+DLL_CopyCore.h:COPYCOREDLL ErrorCode g_ErrorCode[TOTAL_DRIVE_NUMBER];
+---- PARTITION_INFORMATION_EX Matches (4 in 1 files) ----
+CopyCompareDlg.cpp:BOOL GetPartitionInfoEx(LPWSTR wszPath, PARTITION_INFORMATION_EX *pdg)
+CopyCompareDlg.cpp:	PARTITION_INFORMATION_EX pie;
+CopyCompareDlg.cpp:	//DWORD layout_size = sizeof(DRIVE_LAYOUT_INFORMATION_EX) + MAX_NUM_PARTITION * sizeof(PARTITION_INFORMATION_EX);
+CopyCompareDlg.cpp:	PARTITION_INFORMATION_EX pie;
+---- setDriveType Matches (2 in 2 files) ----
+CopyCompareDlg.cpp:		m_cFlashDrive[i].setDriveType(nDriveType);
+CopyCompareDlg.h:	void setDriveType(int nDriveType)
+---- DRIVE_REMOVABLE Matches (6 in 3 files) ----
+CopyCompareDlg.cpp:		 case DRIVE_REMOVABLE:
+CopyCompareDlg.cpp:			 TRACE(_T("[%s]ScanUFD=>driveLabelTbl[%s ] = DRIVE_REMOVABLE \n"),m_cFlashDrive[i].getDriveLabel(), driveLabelTbl[i]);
+CopyCompareDlg.cpp:				if(m_cFlashDrive[i].getDriveType() == DRIVE_REMOVABLE)
+CopyCompareDlg.cpp:			if(m_cFlashDrive[i].getDriveType() == DRIVE_REMOVABLE)
+CopyCompareDlg.h:#define DRIVE_REMOVABLE			2
+ScanUFD.h:#define DRIVE_REMOVABLE		0x02
+---- DRIVE_UNKNOWN Matches (3 in 2 files) ----
+CopyCompareDlg.cpp:		 case DRIVE_UNKNOWN:
+CopyCompareDlg.cpp:			 TRACE(_T("[%s]ScanUFD=>driveLabelTbl[%s ] = DRIVE_UNKNOWN \n"), m_cFlashDrive[i].getDriveLabel(), driveLabelTbl[i]);
+ScanUFD.h:#define DRIVE_UNKNOWN				0x00
+---- setLastPartition Matches (3 in 2 files) ----
+CopyCompareDlg.cpp:				m_cFlashDrive[i].setLastPartition(true);
+CopyCompareDlg.cpp:				m_cFlashDrive[i].setLastPartition(false);
+CopyCompareDlg.h:	void setLastPartition(bool Flag)
+---- m_list Matches (41 in 2 files) ----
+CopyCompareDlg.cpp:	DDX_Control(pDX, IDC_LIST2, m_List);
+CopyCompareDlg.cpp:	m_List.SetExtendedStyle(LVS_EX_FULLROWSELECT);
+CopyCompareDlg.cpp:	m_List.InsertColumn(0, _T("Index"));		
+CopyCompareDlg.cpp:	m_List.InsertColumn(1, _T("Pattern"));
+CopyCompareDlg.cpp:	m_List.InsertColumn(2, _T("Pattern Content"));
+CopyCompareDlg.cpp:	m_List.SetColumnWidth(0,50);
+CopyCompareDlg.cpp:	m_List.SetColumnWidth(1,60);
+CopyCompareDlg.cpp:	m_List.SetColumnWidth(2,120); 
+CopyCompareDlg.cpp:	int nIndex	= m_List.GetItemCount();
+CopyCompareDlg.cpp:	POSITION pos = m_List.GetFirstSelectedItemPosition();
+CopyCompareDlg.cpp:		int nIndex = m_List.GetNextSelectedItem(pos);
+CopyCompareDlg.cpp:		nItem = m_List.InsertItem(nIndex+1, szIndex);
+CopyCompareDlg.cpp:		m_List.SetItemText(nItem, 1, szComboBox2);
+CopyCompareDlg.cpp:			m_List.SetItemText(nItem, 2, m_DriveInformTbl[0].szCustomFile);
+CopyCompareDlg.cpp:		for(nItem; nItem < m_List.GetItemCount(); nItem++)
+CopyCompareDlg.cpp:			m_List.SetItemText(nItem, 0, szIndex);
+CopyCompareDlg.cpp:		nItem = m_List.InsertItem(m_List.GetItemCount(), szIndex);
+CopyCompareDlg.cpp:		m_List.SetItemText(nItem, 1, szComboBox2);
+CopyCompareDlg.cpp:			m_List.SetItemText(nItem, 2, m_DriveInformTbl[0].szCustomFile);
+CopyCompareDlg.cpp:	POSITION pos = m_List.GetFirstSelectedItemPosition();
+CopyCompareDlg.cpp:		int nIndex = m_List.GetNextSelectedItem(pos);
+CopyCompareDlg.cpp:		m_List.DeleteItem(nIndex);
+CopyCompareDlg.cpp:		for(nIndex; nIndex < m_List.GetItemCount(); nIndex++)
+CopyCompareDlg.cpp:			m_List.SetItemText(nIndex, 0, szIndex);
+CopyCompareDlg.cpp:		int nPatternCount = m_List.GetItemCount();	
+CopyCompareDlg.cpp:		m_List.DeleteItem(nPatternCount - 1);	
+CopyCompareDlg.cpp:	m_List.DeleteAllItems();
+CopyCompareDlg.cpp:			int nPatternCount = m_List.GetItemCount();
+CopyCompareDlg.cpp:					CString szWritePattern = m_List.GetItemText ( nPatternIndex , 1 );
+CopyCompareDlg.cpp:					CString szCustomFile = m_List.GetItemText ( nPatternIndex , 2 );	
+CopyCompareDlg.cpp:	int nPatternCount = m_List.GetItemCount();
+CopyCompareDlg.cpp:				szWritePattern = m_List.GetItemText ( nPatternIndex, LIST_PATTERN);
+CopyCompareDlg.cpp:			CString szTempFile = m_List.GetItemText ( nPatternIndex , LIST_PATTERN_CONTENT );
+CopyCompareDlg.cpp:				CString szTempFile = m_List.GetItemText ( nPatternIndex , LIST_PATTERN_CONTENT);
+CopyCompareDlg.cpp:			m_List.DeleteAllItems();	
+CopyCompareDlg.cpp:				int nItem = m_List.InsertItem(m_List.GetItemCount() , szIndex);
+CopyCompareDlg.cpp:				m_List.SetItemText(nItem, LIST_PATTERN, szResult);
+CopyCompareDlg.cpp:					m_List.SetItemText(nItem, LIST_PATTERN_CONTENT, szCustomPath);
+CopyCompareDlg.h:	CListCtrl m_List;
